@@ -1,13 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Claire Spindler</title>
+    <link href="./public/src/style.css" rel="stylesheet" type="text/css"/>
+    <script type="importmap">
+    {
+      "imports": {
+        "three": "./node_modules/three/build/three.module.js"
+      }
+    }
+  </script>
 </head>
 <body>
-    <h1>Soon to be my 3d Portfolio</h1>
-    <canvas class="webgl"></canvas>
-    <script type="module" src="./script.js"></script>
+  <nav class="nav">
+    <a class="navLogoContainer" href="./index.html">
+      <img class="navbarLogo" alt="Claire Spindler" src="./public/assets/images/logo.png">
+    </a>
+    <div class="navbarNav">
+      <a class="navLink" href="./alt.html">Alternate Pages</a>
+    </div>
+    <div class="navbarNav">
+      <a class="navLink" href="./contact.html">Contact Me</a>
+    </div>
+    <div class="navbarNav">
+      <a class="navLink" href="./resources.html">Resources</a>
+    </div>
+  </nav>
+<div>
+  <div class="blend">
+    <canvas id="background"></canvas>
+    <script type="module" src="./public/src/script.js"></script>
+  </div>
+  <div class="tAbtMe">
+    <div>jhdkafndkjaf
+    </div>
+  </div>
+</div>
 </body>
 </html>
